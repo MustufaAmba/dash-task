@@ -1,0 +1,156 @@
+.Home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.Home__background {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  height: inherit;
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Home__background__title {
+  margin: 0px !important;
+  color: #4e556b;
+}
+
+.Home__background__text {
+  width: 400px;
+  text-align: center;
+  color: #abb7cc;
+  font-weight: 600;
+}
+
+.Home__form {
+  padding: 80px 0px 100px 0px;
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+  border-style: outset;
+}
+
+.Home__form__text {
+  margin: 0px 0px 80px 100px;
+}
+
+.Form {
+  margin-left: 100px;
+}
+
+.Input {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Input__label {
+  color: #abb7cc;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.Input__fields {
+  width: 100%;
+  border: 1px solid #abb7cc;
+  padding: 15px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.Input__fieldsMargin {
+  margin-bottom: 20px;
+}
+
+.Input__error {
+  width: 100%;
+  background-color: #f8d7da;
+  color: #842029;
+  margin-bottom: 20px;
+  padding: 15px 10px;
+}
+
+.Form__error {
+  width: 50%;
+  background-color: #f8d7da;
+  color: #842029;
+  margin-bottom: 20px;
+  padding: 15px 10px;
+  margin-left: 100px;
+}
+
+.number {
+  width: 50%;
+}
+
+.CheckBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0px;
+}
+
+.Checkbox__text {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+#checkTerms {
+  zoom: 1.5;
+  margin-right: 10px;
+}
+
+.Form__button {
+  margin-top: 20px;
+  color: #fff;
+  background-color: #33adff;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .Home__background__text {
+    width: 350px;
+  }
+  .Home {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .Home__form__text {
+    margin: 0px 0px 60px 60px;
+  }
+  .Form {
+    margin-left: 60px;
+  }
+}
+/*# sourceMappingURL=Home.module.css.map */
